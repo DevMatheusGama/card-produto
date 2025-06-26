@@ -1,5 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 
 
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content {
+    width: 300px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.red {
+    width: 400px;
+    height: 200px; 
+    background: red;
+    position: absolute;
+    top: -70px;
+    left: -100px;
+    z-index: -2; 
+    transform: rotate(-35deg);
+    border-radius: 8px;
+}
+
+.blue {
+    width: 400px;
+    height: 200px; 
+    background: blue;
+    position: absolute;
+    top: -70px;
+    left: -100px;
+    z-index: -2; 
+    transform: rotate(-35deg);
+    border-radius: 8px;
+}
+
+.purple {
+    width: 400px;
+    height: 200px; 
+    background: purple;
+    position: absolute;
+    top: -70px;
+    left: -100px;
+    z-index: -2; 
+    transform: rotate(-35deg);
+    border-radius: 8px;
+}
+
+.card {
+    width: 240px;
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 15px;;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 18px 10px 23px -4px rgba(0,0,0,0.3),0px 10px 15px -3px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
 
 
+.img {
+    width: 210px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
+img {
+    width: 95%;
+    height: 95%;
+    border-radius: 8px;
+}
+
+.btn-categoria {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.style-btn {
+    height: 25px;
+    background: transparent;
+    padding: 4px;
+    padding-bottom: px;
+    border: 2px solid rgba(0,0,0,0.3);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+p {
+    padding-left: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.preco {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.c-red {
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.c-blue {
+    color: blue;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.c-purple {
+    color: purple;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.coracao {
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.cor-laranja {
+    color: orange;
+}
+
+.btn-add {
+    width: 190px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background: orange;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    transform: translate(25px, -20px);
+    box-shadow: 8px 5px 13px -3px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
